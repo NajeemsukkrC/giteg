@@ -1,0 +1,169 @@
+*{
+   margin: 0;
+   padding: 0; 
+   font-family: "Nunito", sans-serif;
+   box-sizing: border-box;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul a{
+    color: firebrick;
+    text-decoration: none;
+    margin: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+nav ul li a{
+    text-shadow: 4px 4px 4px;
+}
+video{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+h1{
+    color: blanchedalmond;
+}
+h1:hover{
+    color: cyan;
+    text-decoration: underline;
+    text-shadow: 4px 4px 4px red;
+}
+span{
+    color: rgb(15, 18, 233);
+    font-size: 30px;
+ 
+}
+#home{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+}
+#home::before{
+    content:"";
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/18/14/39/clouds-1834983_960_720.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.main{
+    border: 2px inset blueviolet;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    height: 70px;
+    left: 70%;
+    margin-top: 200px;
+    box-shadow: 2px 4px 6px red;
+}
+.main:hover{
+   
+    scale: 1.05;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+}
+.pic h4{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+h3{
+    text-align: center;
+    background-color: cadetblue;
+}
+.gallery{
+    box-shadow: 2px 4px 6px 8px red;
+    margin: 10px;
+    justify-content: space-between;
+}
+.gallery img{
+width: 450px;
+margin: 5px;
+margin-left: 20px;
+cursor: pointer;
+}
+.gallery img:hover{
+    scale: 1.05;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    border: 4px inset red;
+    background: linear-gradient(to top,blueviolet,rgba(16, 104, 134, 0.732)50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+}
+.box img{
+    border-radius: 100px;
+    width: 340px;
+    height: 200px;
+    
+
+}
+.box:hover{
+    background-position: left bottom;
+    box-shadow: 2px 4px 10px red;
+}
+.box p{
+    text-align: justify;
+    margin: 4px;
+}
+.box h5{
+    font-size: larger;
+    color: rgb(75, 4, 173);
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: azure;
+    background-color:cadetblue;
+    cursor: pointer;
+}
+.cv{
+    display: block;
+    width: 80px;
+    background-color: blueviolet;
+    color: beige;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 70%;
+    border-radius: 40%;
+    margin-top: 20px;
+    
+}
+.cv:hover{
+    background-color: red;
+    scale: 0.6s;
+}
